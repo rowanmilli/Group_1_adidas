@@ -1749,7 +1749,7 @@ textarea.form-control {
 
 .ps-bought .container {
   border-top: 1px solid #E5E5E5;
-  border-bottom: 1px solid #E5E5E5;
+  
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -10062,7 +10062,7 @@ textarea.form-control {
 }
 
 .ps-notify {
-  background-color: #FFEEEF;
+  background-color: #F4F83B;
   position: relative;
 }
 
@@ -11306,7 +11306,7 @@ textarea.form-control {
 }
 
 .ps-header .ps-logo img {
-  width: 150px;
+  width: 80px;
 }
 
 .ps-header .ps-header__center {
