@@ -63,7 +63,7 @@
 
 /*1. RESET AND TYPHOGRAPHY */
 * {
-  font-family: "Jost";
+  font-family: 'Didact Gothic', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -83,7 +83,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
-  font-family: "Jost";
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -463,7 +464,7 @@ body {
   bottom: auto;
   width: 20px;
   transform-origin: 50% 50%;
-  background-color: #fc354c;
+  background-color: #EE1C24;
 }
 
 .menu-toggle.active:before, .ps-btn--hamburger.active:before {
@@ -10394,7 +10395,7 @@ textarea.form-control {
   font-weight: 500;
   font-size: 14px;
   color: #808080;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
