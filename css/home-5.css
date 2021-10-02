@@ -1,0 +1,83 @@
+:root {
+  --space-unit: 1em;
+  --space-xxxxs: calc(0.09 * var(--space-unit));
+  --space-xxxs: calc(0.146 * var(--space-unit));
+  --space-xxs: calc(0.236 * var(--space-unit));
+  --space-xs: calc(0.382 * var(--space-unit));
+  --space-sm: calc(0.618 * var(--space-unit));
+  --space-md: calc(1 * var(--space-unit));
+  --space-lg: calc(1.618 * var(--space-unit));
+  --space-xl: calc(2.618 * var(--space-unit));
+  --space-xxl: calc(4.236 * var(--space-unit));
+  --space-xxxl: calc(6.854 * var(--space-unit));
+  --space-xxxxl: calc(11.08 * var(--space-unit));
+  --component-padding: var(--space-xxxl);
+}
+
+.ps-home--5 .ps-home__category {
+  padding: 90px 0 40px;
+}
+
+.ps-home--5 .ps-home__category .ps-category--menu {
+  margin-bottom: 90px;
+}
+
+.ps-home--5 .ps-discount--block, .ps-home--5 .ps-section--tabs, .ps-home--5 .ps-video--home-full {
+  padding-bottom: 90px;
+}
+
+.ps-home--5 .ps-home__product {
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 90px;
+  margin-bottom: 90px;
+}
+
+.ps-home--5 .ps-home__product .ps-home__item:first-child {
+  margin-bottom: 50px;
+}
+
+.ps-home--5 .ps-footer--service {
+  padding: 0 0 90px;
+}
+
+.ps-home--5 .ps-instagram {
+  padding: 90px 0;
+}
+
+.ps-home--5 .ps-section--newsletter {
+  background-color: #191919;
+  padding: 90px 0;
+  border-bottom: 1px solid #333;
+}
+
+.ps-home--5 .ps-section--newsletter .ps-section__title, .ps-home--5 .ps-section--newsletter .ps-section__desc {
+  color: white;
+}
+
+.ps-home--5 .ps-post--grid {
+  padding-bottom: 90px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+@media (min-width: 768px) {
+  .ps-home--5 .ps-home__product .ps-home__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .ps-home--5 .ps-home__product .ps-home__grid .ps-home__item {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .ps-home--5 .ps-home__product .ps-home__grid {
+    grid-gap: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .ps-home--5 .ps-home__product .ps-home__grid {
+    grid-gap: 130px;
+  }
+}

@@ -1,0 +1,86 @@
+:root {
+  --space-unit: 1em;
+  --space-xxxxs: calc(0.09 * var(--space-unit));
+  --space-xxxs: calc(0.146 * var(--space-unit));
+  --space-xxs: calc(0.236 * var(--space-unit));
+  --space-xs: calc(0.382 * var(--space-unit));
+  --space-sm: calc(0.618 * var(--space-unit));
+  --space-md: calc(1 * var(--space-unit));
+  --space-lg: calc(1.618 * var(--space-unit));
+  --space-xl: calc(2.618 * var(--space-unit));
+  --space-xxl: calc(4.236 * var(--space-unit));
+  --space-xxxl: calc(6.854 * var(--space-unit));
+  --space-xxxxl: calc(11.08 * var(--space-unit));
+  --component-padding: var(--space-xxxl);
+}
+
+.ps-home--8 {
+  padding-bottom: 100px;
+}
+
+.ps-home--8 .ps-home__promo {
+  padding-top: 40px;
+}
+
+.ps-home--8 .ps-home__promo .ps-promo .ps-promo__title {
+  font-size: 20px;
+}
+
+.ps-home--8 .ps-home__promo .col-12 {
+  padding-bottom: 30px;
+}
+
+.ps-home--8 .ps-product--featured {
+  padding: 90px 0;
+}
+
+.ps-home--8 .ps-banner--content {
+  margin-bottom: 30px;
+}
+
+.ps-home--8 .ps-banner--content .ps-banner__title {
+  width: 100%;
+}
+
+.ps-home--8 .ps-footer--service {
+  padding: 90px 0 0;
+}
+
+.ps-home--8 .ps-section--tabs {
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .ps-home--8 .ps-banner--content .ps-banner__thumnail img {
+    height: 400px;
+  }
+  .ps-home--8 .ps-banner--content .ps-banner__content.content-center {
+    width: 60%;
+    padding-left: 0;
+    left: 40%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .ps-home--8 .ps-home__promo .ps-promo .ps-promo__title {
+    font-size: 25px;
+  }
+  .ps-home--8 .ps-section--banner .ps-banner .ps-banner__title {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  .ps-home--8 .ps-section--banner .ps-banner .ps-banner__thumnail img {
+    height: 500px;
+  }
+  .ps-home--8 .ps-banner--content .ps-banner__title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .ps-home--8 .ps-banner--content .ps-banner__thumnail img {
+    height: 450px;
+  }
+  .ps-home--8 .ps-banner--content .ps-banner__content.content-center {
+    width: 50%;
+    left: 50%;
+  }
+}

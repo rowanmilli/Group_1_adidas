@@ -1,0 +1,49 @@
+.ps-home--4 .ps-section--banner .ps-banner .ps-banner__thumnail img {
+  height: 100vh;
+}
+
+.ps-home--4 .ps-home__promo .ps-home__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ps-home--4 .ps-home__promo .ps-home__row > div {
+  flex: 0 0 100%;
+}
+
+.ps-home--4 .ps-home__promo .ps-promo__banner {
+  min-height: 350px;
+}
+
+.ps-home--4 .ps-footer--service {
+  padding: 0 0 90px;
+}
+
+.ps-home--4 .ps-product--featured, .ps-home--4 .ps-instagram {
+  padding-bottom: 90px;
+}
+
+.ps-home--4 .ps-product--carousel {
+  padding: 90px 0;
+}
+
+.ps-home--4 .ps-section--newsletter {
+  padding: 90px 0;
+}
+
+.ps-home--4 .ps-section--newsletter .ps-section__title, .ps-home--4 .ps-section--newsletter .ps-section__desc {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .ps-home--4 .ps-home__promo .ps-home__row .ps-home__col-6 {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .ps-home--4 .ps-section--banner .ps-banner .ps-banner__title {
+    font-size: 60px;
+    line-height: 65px;
+  }
+}
