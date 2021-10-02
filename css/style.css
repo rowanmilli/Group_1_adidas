@@ -4671,7 +4671,7 @@ textarea.form-control {
 }
 
 .ps-banner .ps-banner__title.text-dark {
-  color: #191919 !important;
+  color: #e8e8e8 !important;
 }
 
 .ps-banner .ps-banner__desc {
@@ -4679,6 +4679,7 @@ textarea.form-control {
   margin-bottom: 20px;
   width: 50%;
   line-height: 30px;
+  color: #e8e8e8;
 }
 
 .ps-banner .ps-btn {
@@ -5849,6 +5850,14 @@ textarea.form-control {
   color: #191919;
 }
 
+.ps-promo .ps-promo__link.text-light a {
+  color: #e8e8e8;
+}
+
+.ps-promo .ps-promo__link.text-light img {
+  filter: none;
+}
+
 .ps-promo .ps-promo__link.text-dark img {
   filter: none;
 }
@@ -5865,6 +5874,10 @@ textarea.form-control {
 
 .ps-promo .ps-promo__title.text-dark, .ps-promo .ps-promo__type.text-dark {
   color: #191919;
+}
+
+.ps-promo .ps-promo__title.text-light, .ps-promo .ps-promo__type.text-light {
+  color: #e8e8e8;
 }
 
 @media (min-width: 1280px) {
