@@ -73,6 +73,7 @@ html {
 }
 
 body {
+  font-family: 'Didact Gothic', sans-serif; 
   font-size: 16px;
   color: #191919;
 }
@@ -83,44 +84,51 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
-  font-family: "Jost";
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 {
   color: inherit;
 }
 
 h1 {
+  font-family: 'Didact Gothic', sans-serif; 
   font-size: 48px;
 }
 
 h2 {
+  font-family: 'Didact Gothic', sans-serif; 
   font-size: 36px;
 }
 
 h3 {
+  font-family: 'Oswald', sans-serif;
   font-size: 24px;
 }
 
 h4 {
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
 
 h5 {
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
 }
 
 h6 {
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
 }
 
 p {
+  font-family: 'Didact Gothic', sans-serif; 
   font-size: 16px;
   line-height: 1.6em;
   color: #191919;
 }
 
 p span {
+  font-family: 'Didact Gothic', sans-serif; 
   font-family: inherit;
   color: inherit;
   font-size: inherit;
@@ -134,7 +142,7 @@ a {
 }
 
 a:hover {
-  color: #D9121F;
+  color: #890005;
 }
 
 a,
@@ -463,7 +471,7 @@ body {
   bottom: auto;
   width: 20px;
   transform-origin: 50% 50%;
-  background-color: #fc354c;
+  background-color: #890005;
 }
 
 .menu-toggle.active:before, .ps-btn--hamburger.active:before {
@@ -495,11 +503,9 @@ body {
 }
 
 .ps-btn--rounded, button.ps-btn--rounded {
-  border-radius: 50px;
 }
 
 .ps-btn--curve, button.ps-btn--curve {
-  border-radius: 5px;
 }
 
 .ps-btn--outline, button.ps-btn--outline {
@@ -536,14 +542,15 @@ body {
 }
 
 .ps-btn--dark, button.ps-btn--dark {
-  border-color: #191919 !important;
-  background-color: #191919 !important;
+  font-family: 'Didact Gothic', sans-serif; 
+  border-color: #890005 !important;
+  background-color: #890005 !important;
   color: white !important;
 }
 
 .ps-btn--dark:hover, button.ps-btn--dark:hover {
-  background-color: #D9121F !important;
-  border-color: #D9121F !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 
 .ps-btn--disabled, button.ps-btn--disabled {
@@ -555,8 +562,8 @@ body {
 
 .ps-btn:hover, .ps-btn:active, button.ps-btn:hover, button.ps-btn:active {
   color: #fff;
-  background-color: #D9121F;
-  border-color: #D9121F;
+  background-color: #890005;
+  border-color: #890005;
 }
 
 .ps-btn--close {
@@ -1179,6 +1186,56 @@ textarea.form-control {
   min-width: 100%;
 }
 
+ul {
+  font-size: 14px;
+  margin-left: -38px;
+}
+
+.radio-section {
+  align-content: flex-start;
+  columns: 3;
+  column-width: auto;
+}
+
+#CREDIT {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+#PAYPAL {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+#AFFIRM {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+#KLARNA {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+#AFTERPAY {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.credit-cards {
+  margin-bottom: 20px;
+}
+
 .select2 .select2-selection--single {
   height: auto;
   outline: none;
@@ -1470,7 +1527,7 @@ textarea.form-control {
 }
 
 .form-check .form-check-input {
-  margin-top: 0;
+  margin-top: 20px;
   position: absolute;
   left: 0;
   top: 0;
@@ -1485,7 +1542,12 @@ textarea.form-control {
 }
 
 .form-check .form-check-input:checked + label:before {
-  background-color: #D9121F;
+  background-color: #890005;
+}
+
+.password-login {
+  margin-top: 20px;
+  text-decoration: underline;
 }
 
 .form-check .form-check-input:checked + label:after {
@@ -1493,12 +1555,11 @@ textarea.form-control {
 }
 
 .form-check .form-check-label {
-  margin: 0;
   position: relative;
   display: block;
   line-height: 22px;
   -webkit-padding-start: 23px;
-          padding-inline-start: 23px;
+  padding-inline-start: 23px;
   transition: all .35s ease-in-out 0s;
   cursor: pointer;
 }
@@ -1710,12 +1771,14 @@ textarea.form-control {
 }
 
 .ps-breadcrumb {
+  font-family: 'Didact Gothic', sans-serif;
   list-style: none;
   padding: 20px 0 !important;
   margin: 0;
 }
 
 .ps-breadcrumb__item {
+  font-family: 'Didact Gothic', sans-serif;
   position: relative;
   display: inline-block;
   color: #191919;
@@ -1723,6 +1786,7 @@ textarea.form-control {
 }
 
 .ps-breadcrumb__item:before {
+  font-family: 'Didact Gothic', sans-serif;
   content: '\203A';
   display: inline-block;
   border-radius: 50%;
@@ -1731,25 +1795,29 @@ textarea.form-control {
 }
 
 .ps-breadcrumb__item a {
+  font-family: 'Didact Gothic', sans-serif;
   color: #191919;
   font-size: 14px;
 }
 
 .ps-breadcrumb__item a:hover {
-  color: #D9121F;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #890005;
 }
 
 .ps-breadcrumb__item a.active {
-  font-weight: 500;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: 400;
 }
 
 .ps-breadcrumb__item:first-child:before {
+  font-family: 'Didact Gothic', sans-serif;
   display: none;
 }
 
 .ps-bought .container {
   border-top: 1px solid #E5E5E5;
-  
+  border-bottom: 1px solid #E5E5E5;
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -3815,7 +3883,7 @@ textarea.form-control {
 
 .ps-product--detail .ps-product__type .ps-product__item .text {
   display: inline-block;
-  width: 500px;
+  width: 100px;
 }
 
 .ps-product--detail .ps-product__type .text-bold {
@@ -5292,6 +5360,7 @@ textarea.form-control {
 }
 
 .ps-table thead tr th {
+  font-family: 'Didact Gothic', sans-serif; 
   padding: var(--space-md);
   border: none;
   border-bottom: 1px solid #E5E5E5;
@@ -5379,6 +5448,7 @@ textarea.form-control {
 }
 
 .ps-table--product .ps-table__price {
+  font-family: 'Didact Gothic', sans-serif; 
   font-weight: 500;
   color: #191919;
   font-size: 15px;
@@ -6293,35 +6363,51 @@ textarea.form-control {
 
 .ps-shopping .ps-shopping__footer .ps-shopping__action {
   font-weight: 500;
-  font-size: 17px;
   text-decoration: underline;
 }
 
+.ps-shopping__action {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 14px;
+}
+
+.order-summary__subhead {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}
 .ps-shopping .ps-input {
+  margin-top: 40px;
   display: inline-block;
   padding: 5px 15px;
   max-width: 200px;
-  border-radius: 40px;
-  font-size: 17px;
+  font-size: 16px;
   height: 44px;
   background-color: white;
   color: #191919;
   border-color: #191919;
 }
 
+.social-logins {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 10px 10px;
+}
+
 .ps-shopping .ps-input::-moz-placeholder {
   color: #191919;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .ps-shopping .ps-input:-ms-input-placeholder {
   color: #191919;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .ps-shopping .ps-input::placeholder {
+  font-family: 'Didact Gothic', sans-serif;
   color: #191919;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .ps-shopping .ps-shopping__coupon {
@@ -6330,12 +6416,23 @@ textarea.form-control {
   align-items: center;
 }
 
+.ps-shopping__coupon {
+  margin-top: 40px;
+}
+
 .ps-shopping .ps-shopping__coupon .ps-shopping__action {
-  margin-left: 10px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .ps-shopping .ps-shopping__button .ps-btn:first-child {
   margin-right: 10px;
+}
+
+.ps-shopping__button {
+  font-family: 'Poppins', sans-serif;
 }
 
 .ps-shopping .ps-title {
@@ -6347,6 +6444,7 @@ textarea.form-control {
 }
 
 .ps-shopping .ps-shopping__label {
+  font-family: 'Didact Gothic', sans-serif;
   line-height: 20px;
   font-size: 14px;
   color: #191919;
@@ -6354,12 +6452,22 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
+.checkout-summary {
+  background-color: #ffffff;
+  padding: 10px 10px;
+}
+
+.ps-shopping__box {
+  background-color: #E8E8E8;
+  padding: 20px 20px;
+}
+
 .ps-shopping .ps-shopping__box {
   color: #191919;
-  border-radius: 4px;
   padding: 30px 20px;
   margin-bottom: 50px;
-  background-color: #F2F2F2;
+  background-color: #E8E8E8;
+  
 }
 
 .ps-shopping .ps-shopping__row {
@@ -6367,6 +6475,71 @@ textarea.form-control {
   justify-content: space-between;
   padding: 10px 0;
   border-bottom: 1px solid #E5E5E5;
+}
+
+.checkout-summary .ps-shopping__row {
+  columns: 2;
+  column-width: 50%;
+}
+
+.delivery-options {
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #000000;
+  padding: 10px 10px;
+  justify-content: space-between;
+  color: #ffffff;
+  columns: 2;
+  margin-left: 15px;
+  align-items: right;
+  column-width: 50%;
+}
+
+.ps-title2 {
+  margin-top: 40px;
+}
+
+.delivery-options2 {
+  width: 450px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 10px 10px;
+  justify-content: space-between;
+  color: #000000;
+  columns: 2;
+  column-width: 70% 30%;
+  margin-left: 15px;
+  align-items: right;
+  border: 2px solid #e8e8e8;
+}
+
+.delivery-text2 {
+  color: #000000;
+  font-size: 14px;
+}
+
+.delivery-header3 {
+  color: #000000;
+}
+
+.delivery-header4 {
+  color: #000000;
+  margin-left: 145px;
+}
+
+.delivery-header {
+  color: #ffffff;
+}
+
+.delivery-header2 {
+  color: #ffffff;
+  margin-left: 145px;
+}
+
+.delivery-text {
+  color: #ffffff;
+  font-size: 14px;
 }
 
 .ps-shopping .ps-shopping__checkout {
@@ -6377,18 +6550,29 @@ textarea.form-control {
   width: 100%;
 }
 
+.poppins-links {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
 .ps-shopping .ps-shopping__price {
+  font-family: 'Didact Gothic', sans-serif;
   color: #191919;
   font-weight: 500;
   font-size: 14px;
 }
 
 .ps-shopping .ps-shopping__total {
-  font-size: 26px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 14px;
   font-weight: 500;
+  margin-top: 20px;
 }
 
 .ps-shopping .ps-shopping__text {
+  font-family: 'Didact Gothic', sans-serif;
   font-size: 14px;
   text-align: right;
 }
@@ -6552,7 +6736,6 @@ textarea.form-control {
 }
 
 .ps-form--subscribe .ps-input {
-  border-radius: 40px;
   width: 100%;
   height: 44px;
   background-color: #E5E5E5;
@@ -6615,7 +6798,6 @@ textarea.form-control {
   height: 44px;
   color: #191919;
   background-color: white;
-  border-radius: 40px !important;
   border-color: white;
   width: 100%;
   margin-bottom: 10px;
@@ -9569,8 +9751,9 @@ textarea.form-control {
 }
 
 .ps-checkout .ps-checkout__title {
+  font-family: 'Oswald', sans-serif;
   color: #191919;
-  font-size: 34px;
+  font-size: 42px;
   line-height: 40px;
 }
 
@@ -9599,7 +9782,9 @@ textarea.form-control {
 }
 
 .ps-checkout .ps-checkout__label {
+  font-family: 'Didact Gothic', sans-serif;
   color: #191919;
+  margin-top: 10px;
   margin-bottom: 5px;
   font-size: 14px;
   display: block;
@@ -9613,7 +9798,6 @@ textarea.form-control {
 }
 
 .ps-checkout .ps-input, .ps-checkout .ps-textarea {
-  border-radius: 40px;
   height: 44px;
   border: 1px solid #191919;
   width: 100%;
@@ -9648,14 +9832,13 @@ textarea.form-control {
 
 .ps-checkout .ps-checkout__form {
   border: 1px solid #E5E5E5;
+  border-radius: 0%;
   padding: 15px 20px 20px;
-  border-radius: 4px;
   margin-bottom: 50px;
 }
 
 .ps-checkout .ps-checkout__order {
   border: 3px solid #D9121F;
-  border-radius: 4px;
   padding: 25px 20px 30px;
   margin-bottom: 50px;
 }
@@ -9665,6 +9848,7 @@ textarea.form-control {
 }
 
 .ps-checkout .ps-checkout__row {
+  font-family: 'Didact Gothic', sans-serif;
   display: flex;
   border-bottom: 1px solid #E5E5E5;
   padding: 15px 0;
@@ -9728,7 +9912,7 @@ textarea.form-control {
 .ps-checkout .ps-title {
   color: #191919;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 24px;
 }
 
 .ps-checkout .ps-product__price {
@@ -9738,19 +9922,23 @@ textarea.form-control {
   line-height: 26px;
   min-width: 100px;
   text-align: right;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .ps-checkout .ps-product__name {
   color: #191919;
   font-size: 14px;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .ps-checkout .ps-product__name span {
   font-weight: 500;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .ps-checkout .ps-checkout__payment {
   padding-top: 15px;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .ps-checkout .ps-btn {
@@ -9860,14 +10048,16 @@ textarea.form-control {
 
 @media (min-width: 992px) {
   .ps-checkout .ps-checkout__title {
-    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
     line-height: 50px;
   }
 }
 
 @media (min-width: 1280px) {
   .ps-checkout .ps-checkout__title {
-    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
     line-height: 60px;
   }
   .ps-checkout .ps-checkout__heading {
@@ -10062,7 +10252,7 @@ textarea.form-control {
 }
 
 .ps-notify {
-  background-color: #F4F83B;
+  background-color: #FFEEEF;
   position: relative;
 }
 
@@ -11306,7 +11496,7 @@ textarea.form-control {
 }
 
 .ps-header .ps-logo img {
-  width: 80px;
+  width: 150px;
 }
 
 .ps-header .ps-header__center {
@@ -11974,10 +12164,11 @@ textarea.form-control {
 }
 
 .ps-footer--widget .ps-footer__list li a {
+  font-family: 'Didact Gothic', sans-serif;
   display: block;
   color: #191919;
-  font-weight: 500;
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .ps-footer--widget .ps-footer__list li a:hover {
@@ -11985,8 +12176,8 @@ textarea.form-control {
 }
 
 .ps-footer--widget .ps-footer__list.column-count {
-  -moz-column-count: 2;
-       column-count: 2;
+  -moz-column-count: 1;
+       column-count: 1;
 }
 
 .ps-footer--widget .ps-footer__account li {
@@ -12004,8 +12195,8 @@ textarea.form-control {
 }
 
 .ps-footer--widget .ps-footer__account.column-count {
-  -moz-column-count: 2;
-       column-count: 2;
+  -moz-column-count: 1;
+       column-count: 1;
 }
 
 .ps-footer--bottom {
