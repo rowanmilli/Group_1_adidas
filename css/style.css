@@ -4,8 +4,7 @@
     Date Created: 06/07/2021
     Developed by: nouthemes
 */
-/*
-    TABLE OF CONTENT
+/*TABLE OF CONTENT
         1. RESET AND TYPHOGRAPHY
             1.1 typhography
         2. ELEMENTS
@@ -45,6 +44,7 @@
         5. HELPERS
         6. CUSTOM
 */
+
 :root {
   --space-unit: 1em;
   --space-xxxxs: calc(0.09 * var(--space-unit));
@@ -11894,6 +11894,20 @@ textarea.form-control {
 }
 
 .ps-navigation--footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #E5E5E5;
+  display: flex;
+  align-items: center;
+  padding: 10px 0 5px;
+}
+
+/* .ps-navigation--footer {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -11906,7 +11920,7 @@ textarea.form-control {
   align-items: center;
   padding: 10px 0 5px;
 }
-
+ */
 .ps-navigation--footer .ps-nav__item {
   flex: 1;
   text-align: center;
