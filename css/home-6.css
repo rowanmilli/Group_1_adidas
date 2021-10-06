@@ -1,0 +1,57 @@
+:root {
+  --space-unit: 1em;
+  --space-xxxxs: calc(0.09 * var(--space-unit));
+  --space-xxxs: calc(0.146 * var(--space-unit));
+  --space-xxs: calc(0.236 * var(--space-unit));
+  --space-xs: calc(0.382 * var(--space-unit));
+  --space-sm: calc(0.618 * var(--space-unit));
+  --space-md: calc(1 * var(--space-unit));
+  --space-lg: calc(1.618 * var(--space-unit));
+  --space-xl: calc(2.618 * var(--space-unit));
+  --space-xxl: calc(4.236 * var(--space-unit));
+  --space-xxxl: calc(6.854 * var(--space-unit));
+  --space-xxxxl: calc(11.08 * var(--space-unit));
+  --component-padding: var(--space-xxxl);
+}
+
+.ps-home--6 .ps-home__promo-top {
+  padding: 30px 0 60px;
+}
+
+.ps-home--6 .ps-home__promo-top .ps-promo__women {
+  padding-bottom: 30px;
+}
+
+.ps-home--6 .ps-home__promo-top .ps-promo__men {
+  padding-bottom: 30px;
+}
+
+.ps-home--6 .ps-home__promo-top .ps-promo__item {
+  padding-bottom: 30px;
+}
+
+.ps-home--6 .ps-product--featured {
+  padding-bottom: 70px;
+}
+
+.ps-home--6 .ps-instagram {
+  padding: 90px 0;
+}
+
+.ps-home--6 .ps-home__promo-center {
+  padding-bottom: 60px;
+}
+
+.ps-home--6 .ps-home__promo-center .col-12 {
+  padding-bottom: 30px;
+}
+
+@media (min-width: 1280px) {
+  .ps-home--6 .ps-section--banner .ps-banner .ps-banner__title {
+    font-size: 70px;
+    line-height: 75px;
+  }
+  .ps-home--6 .ps-section--banner .ps-banner .ps-banner__thumnail img {
+    height: 680px;
+  }
+}

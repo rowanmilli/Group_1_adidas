@@ -1,0 +1,11 @@
+.ps-home--1 {
+  padding-bottom: 90px;
+}
+
+.ps-home--1 .ps-product--carousel {
+  padding-bottom: 90px;
+}
+
+.ps-home--1 .ps-product--featured, .ps-home--1 .ps-section--blog, .ps-home--1 .ps-category--section {
+  padding: 90px 0;
+}
