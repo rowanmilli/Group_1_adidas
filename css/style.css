@@ -27659,3 +27659,228 @@ h7{
   top: 250px;
   left: 75px;
 }
+
+/* CUSTOM CSS BELOW */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: center;
+  width: 20%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  justify-content:center;
+  align-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+  background-color: #363738;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+button {
+  display: block;
+}
+
+.banner--button {
+  background-color: #363738; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+  width: 384px;
+  height: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  box-shadow: 0px 4px 4px #000000, 8px 8px #F4F83B;
+  float: right;
+}
+
+.right--justify {
+  position: absolute;
+  right: 0;
+  display: block;
+}
+
+html,body {
+  background-color:#FFFFFF;
+ width:100%;
+  height:100%;
+}
+
+.bannerimg1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6%;
+  width: 20%;
+}
+
+.bannerimg2 {
+  display: block;
+  margin-left: 0px;
+  margin-right: auto;
+  width: 20%;
+}
+
+/*--CAROUSEL CARD CODE--*/
+
+.caroucard {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c4c4c4;
+  transition: 0.3s;
+  width: 318px;
+  position: relative;
+  background-color: white;
+}
+
+.caroucard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.caroucontainer {
+  padding: 2px 16px;
+}
+
+input.inputimage{
+  width:auto!important;
+  height:auto!important
+}
+
+h7{
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 14px;
+}
+
+.bbox{
+  height: 18px;
+  width: 37px;
+  background-color: #363738;
+  color: white;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-weight: 400;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 18px;       /* The same as your div height */
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.wbox{
+  height: 18px;
+  width: 37px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-weight: 400;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 18px;       /* The same as your div height */
+  position: absolute;
+  top: 190px;
+  left: 10px;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+}
+
+.bonus-marg {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.bonus-marg2 {
+  margin-bottom: 60px;
+}
+
+.sec-header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  color:rgb(0, 0, 0);
+  position: absolute;
+  top: -55px;
+  left: 20px;
+  font-weight: bold;
+}
+
+.rightside {
+  margin-left: auto;
+  margin-right: 200px;
+}
+
+.rightside2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.ban-upper {
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.ban-lower {
+  margin-left: 600px;
+  margin-bottom: 100px;
+}
+
+.floatimg1 {
+  position: absolute;
+  top: 0px;
+  left: 750px;
+}
+
+.floatimg2 {
+  position: absolute;
+  top: 250px;
+  left: 75px;
+}
